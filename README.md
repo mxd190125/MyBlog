@@ -11,8 +11,8 @@
     
 ### Linux端：在Tomcat的conf文件夹下的server.xml中的<Host></Host>标签中最后面添加一段 
          <Context docBase="/usr/local/src/tomcat8/webapps/img" path="/img" reloadable="true"/>
-        并且要在Tomcat的webapps下创建一个img文件夹（docBase=""的值根据你tomcat8安装位置）
+        并且要在Tomcat的webapps下创建一个img文件夹（docBase=""的值根据你tomcat安装位置）
 ## 2、BaseDao.java中修改为你的数据源
-## 3、项目的数据库myblog.sq文件在项目web下的sql文件夹下，将myblog.sql运行在你的Navicat（或其它数据库客户端）中
+## 3、项目的数据库myblog.sql文件在项目web下的sql文件夹下，将myblog.sql运行在你的Navicat（或其它数据库客户端）中
 
 ## 4、UploadUtils.java中简单对照上面第一点配置的图片路径
