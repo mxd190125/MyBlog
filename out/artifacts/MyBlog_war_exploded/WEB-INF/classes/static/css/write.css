@@ -1,0 +1,39 @@
+body{
+    background-color: #FFEEABD1;
+}
+.write-div{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.upImage-span{
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.upImage-span2{
+    display: inline;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 8px;
+}
+.upImage-image , .upImage-upload , #upload-images{
+    width: 100px;
+    height: 100px;
+}
+.upImage-image{
+    margin-left: 8px;
+}
+.upImage-upload{
+    position: absolute;
+}
+#upload-images{
+    opacity: 0;
+}
+.upImage-div{
+    margin-top: 10px;
+}
+.write-lable {
+    color: #90000a;
+}

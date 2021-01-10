@@ -1,0 +1,64 @@
+body{
+    background-color: #FFEEABD1;
+}
+.info-page{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.photo-div{
+
+}
+.info-div{
+
+}
+.photo2{
+    width: 150px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.subBtn{
+    background-color: white;
+    margin-top: 10px;
+}
+.str{
+    color: #90000a;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.upload-input{
+
+}
+.input{
+    width: 200px;
+    background-color: white;
+}
+.message{
+    margin-top: 10px;
+    color: #FFDEAB;
+    font-size: 15px;
+}
+
+/*
+  上传图片样式
+*/
+#imgPreview {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto 0px auto;
+    display: inline;
+}
+#myfile {
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+}
+#preViewImg {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+.subPhoto{
+    color: #90000a;
+    margin-top: 10px;
+}

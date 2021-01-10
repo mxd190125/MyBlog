@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理端</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="../../css/manageBlog.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../../js/manageBlog.js"></script>
+</head>
+<body>
+<div class="manageBlog-page">
+    <div class="manageBlog-div">
+        <table class="table table-bordered" style="text-align: center;">
+            <caption class="center table-head" style="font-size: 25px; color: #90000a;">~ ~ ~ 帖子如下 ~ ~ ~</caption>
+            <thead class="thead-head">
+            <tr>
+                <th class="center">序号</th>
+                <th class="center">用户名</th>
+                <th class="center">标题</th>
+                <th class="center">发布时间</th>
+                <th colspan="4" class="center">操作</th>
+            </tr>
+            </thead>
+            <tbody class="content-body">
+<!--            <label style="display: none;" class="blogId">10</label>-->
+<!--            <tr class="tbody-tr">-->
+<!--                <td class="index">1</td>-->
+<!--                <td>mxd190125</td>-->
+<!--                <td>这是标题1</td>-->
+<!--                <td>2020-09-16 14:12</td>-->
+<!--                <td><button class="btn btn-success opt-btn opt-top" onclick="updateTopStatus(this)">置顶</button></td>-->
+<!--                <td><button class="btn btn-info opt-btn opt-good" onclick="updateGoodStatus(this)">精华</button></td>-->
+<!--                <td><button class="btn btn-primary opt-btn opt-check" onclick="checkBlog(this)">查看</button></td>-->
+<!--                <td><button class="btn btn-default opt-btn btn-danger" onclick="deleteBlog(this)">删除</button></td>-->
+<!--            </tr>-->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 模态弹出窗内容 -->
+    <div class="modal" id="mymodal">
+        <div class="modal-dialog">
+            <div class="modal-content" style="width: 800px;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="invitation">
+                        <div class="baseInfo">
+<!--                            <span><img class="photo3" src='${path}${user.getPhotoUrl()}'></span>-->
+                            <span><label class="author-name"></label></span>
+                            <span class="good-span"><a style="color: #FFB333"><img class="good-discuss" src="../../images/icon/good.png"><label class="good-num"></label></a></span>
+                        </div>
+                        <div class='content'></div>
+                        <div class="images"></div>
+                        <label class="sub-time" style="color: #27c85e"></label>
+                        <div class="discuss">
+                            <div class="pl-div2">
+                                <p><label class="dis-name"></label></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+</div>
+
+
+</body>
+</html>

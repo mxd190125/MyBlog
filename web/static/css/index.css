@@ -1,0 +1,51 @@
+body{
+    /*background-image: url("../images/icon/back-ground.png");*/
+    background-color: #90000a;
+    width: 100%;
+    height: 100%;
+}
+
+.input1 , .subBtn{
+    width: 300px;
+}
+.input2{
+    width: 200px;
+    margin-bottom: 18px;
+    float: left;
+}
+.change{
+    /*text-align: center;*/
+    margin: auto 0;
+}
+#root{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin: -150px 0 0 -150px;
+    width: 350px;
+    height: 300px;
+}
+#registerDiv{
+    display: none;
+}
+.code{
+    text-align: center;
+    display: block;
+    width: 100px;
+    float: left;
+    height: 32px;
+    color: #90000a;
+    font-size: large;
+    background-color: #FFDEAB;
+    border-radius: 4px;
+    padding-top: 3px;
+}
+.message{
+    margin-top: 10px;
+    color: #FFDEAB;
+    font-size: 15px;
+}
+.forgetPass{
+    width: 100px;
+    margin: 20px auto 8px 240px;
+}

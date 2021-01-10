@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>顶部</title>
+    <meta http-equiv="Content-Typecontent=text/html"; charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="/static/css/history.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/static/js/history.js"></script>
+</head>
+<body>
+<label id="userId" style="display: none;">1</label>
+<div class="history-div">
+    <table class="table table-bordered" style="text-align: center;">
+        <caption class="center table-head" style="font-size: 25px; color: #90000a;">~ ~ ~ 您的博客 ~ ~ ~</caption>
+        <thead class="thead-head">
+        <tr>
+            <th class="center">序号</th>
+            <th class="center">标题</th>
+            <th class="center">发布时间</th>
+            <th colspan="2" class="center">操作</th>
+        </tr>
+        </thead>
+        <tbody class="content-body">
+
+        </tbody>
+    </table>
+</div>
+
+<!-- 模态弹出窗内容 -->
+<div class="modal" id="mymodal">
+    <div class="modal-dialog">
+        <div class="modal-content" style="width: 1000px;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">NBA咨询</h4>
+            </div>
+            <div class="modal-body">
+                <div class="invitation">
+                    <div class="baseInfo">
+                        <span><img class="photo3" src='../images/icon/test2.png'></span>
+                        <span><label class="author-name">马雪冬 2020-09-16 14:12</label></span>
+                        <span class="good-span"><a style="color: #FFB333"><img class="good-discuss" src="../images/icon/good.png"><label class="good-num">5</label></a></span>
+                    </div>
+                    <div class='content'>
+                        腾讯体育NBA美女编辑王丽媛在活动现场将这张签到表拍了下来，放入《我们采访了101位火蜜 聊聊什么才是“火箭情结”》这篇文章中，那是中国球迷热爱火箭之情的凝结，述说着他们与火箭之间的故事。
+                        作为编辑，王丽媛却总是冲向报道第一线，从全明星赛到总决赛，从中国赛到球星专访，日积月累的“最前线”经历，让她对于篮球有着更深刻的认知，笔下的文字因此饱含真情实感。
+                    </div>
+                    <div class="images">
+                        <img class="upImage" src="../images/invitation/a.png">
+                        <img class="upImage" src="../images/invitation/b.png">
+                        <img class="upImage" src="../images/invitation/c.png">
+                    </div>
+                    <div class="discuss">
+                        <div class="pl-div2">
+                            <p><label class="dis-name">2020-10-31 15:31 贝拉拉：</label>这是评论。。。。评论。。评论</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>

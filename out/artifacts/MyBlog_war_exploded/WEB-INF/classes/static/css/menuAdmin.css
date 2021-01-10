@@ -1,0 +1,52 @@
+body{
+    background-color: #FFEEABD1;
+}
+.menuAdmin-page{
+    width: 300px;
+    height: 100%;
+    float: left;
+    background-color: #FFDEAB;
+}
+
+.self{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.self-span{
+    /*display: block;*/
+}
+.self-photo{
+    width: 150px;
+    border-radius: 7px;
+}
+.name{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.name , .menuAdminName{
+    color: #90000a;
+    display: block;
+    font-family: Bahnschrift;
+}
+.menuAdmin{
+    text-align: center;
+}
+.menuAdminIcon{
+    width: 50px;
+}
+.menuAdminName{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#menu-left{
+    float: left;
+    margin-left: 20%;
+}
+
+#menu-right {
+    float: right;
+    margin-right: 20%;
+}

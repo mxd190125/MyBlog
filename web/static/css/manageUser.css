@@ -1,0 +1,26 @@
+body{
+    background-color: #FFEEABD1;
+}
+.manageUser-div{
+    float: left;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.thead-head{
+    background-color: #90000a;
+    color: white;
+    font-size: 20px;
+}
+.opt-btn{
+    width: 80px;
+    height: 30px;
+}
+.content-body{
+    color: #90000a;
+    font-size: 18px;
+}
+.center{
+    text-align: center;
+    vert-align: middle;
+}

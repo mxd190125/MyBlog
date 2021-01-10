@@ -1,0 +1,63 @@
+.invitation{
+    padding: 10px 10px 10px 10px;
+    border: 2px dashed #90000a;
+    border-radius: 10px;
+    margin-bottom: 9px;
+}
+.baseInfo{
+    margin-bottom: 7px;
+}
+.photo3{
+    width: 50px;
+    border-radius: 3px;
+}
+.homePage{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 1000px;
+}
+.content{
+    width: 700px;
+    font-size: 20px;
+}
+.images{
+    margin-top: 14px;
+    margin-left: 14px;
+}
+.upImage{
+    width: 150px;
+    margin-right: 8px;
+}
+.good-span{
+    float: right;
+    font-size: 25px;
+}
+.good-blog{
+    float: right;
+}
+.good-discuss{
+    width: 50px;
+}
+.discuss{
+    margin-top: 6px;
+}
+.author-name , .dis-name{
+    color:  #27c85e;
+}
+.blog-title{
+    color: #90000a;
+}
+.pl-input{
+    width: 870px;
+    display: inline;
+}
+.sure-btn{
+    background-color: white;
+    color: #90000a;
+    font-weight: bold;
+}
+.pl-div{
+    margin-top: 9px;
+    margin-bottom: 5px;
+}

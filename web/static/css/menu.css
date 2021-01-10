@@ -1,0 +1,44 @@
+body{
+    background-color: #FFEEABD1;
+}
+.menuPage{
+    width: 300px;
+    height: 100%;
+    float: left;
+    background-color: #FFDEAB;
+}
+.self{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.self-span{
+    /*display: block;*/
+}
+.self-photo{
+    width: 150px;
+    border-radius: 7px;
+}
+.name{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.menuName{
+    font-size: 12px;
+}
+.name , .menuName{
+    color: #90000a;
+    display: block;
+    font-family: Bahnschrift;
+}
+.menu{
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+.menuIcon{
+    width: 50px;
+}
+.menuName{
+    margin-top: 10px;
+}
