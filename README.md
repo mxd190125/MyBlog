@@ -1,5 +1,5 @@
 # MyBlog
-前端：Ajax+Jquery+Bootsrap+JSP 后台：Servle 数据库：MySQL，实现的简易博客网站
+前端：Ajax+Jquery+Bootsrap+JSP 后台：Servlet 数据库：MySQL，实现的简易博客网站
 
 # 运行前说明
 ## 1、上传图片的环境配置：
