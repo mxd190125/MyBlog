@@ -13,8 +13,8 @@ import java.util.*;
 
 public class UploadUtils {
 
-//    private static String fileDirPath = "D:\\myblog\\img";
-    private static String fileDirPath = "/usr/local/src/tomcat8/webapps/img";
+//    private static String fileDirPath = "D:\\myblog\\img";  // Windows端图片存储文件夹
+    private static String fileDirPath = "/usr/local/src/tomcat8/webapps/img"; // Linux端图片存储文件夹
     private static String photoFile = "photo";
     private static String imageFile = "image";
 
