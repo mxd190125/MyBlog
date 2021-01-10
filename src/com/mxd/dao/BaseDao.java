@@ -5,10 +5,10 @@ import java.sql.*;
 
 public class BaseDao {
     private static String driver="com.mysql.cj.jdbc.Driver";
-    private static String url="jdbc:mysql://121.196.145.152:3306/myblog?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT";
-//    private static String url="jdbc:mysql://localhost:3306/myblog?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT";
+    private static String url="jdbc:mysql://121.196.145.152:3306/myblog?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT"; // Linux
+//    private static String url="jdbc:mysql://localhost:3306/myblog?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT";     // Windows
     private static String username="root";
-    private static String password="190125";
+    private static String password="你的密码";
 
     public Connection getConnection(){
         Connection connection = null;
